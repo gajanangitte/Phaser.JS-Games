@@ -18,11 +18,11 @@ class GameScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image('bob-front', 'https://codecademy-content.s3.amazonaws.com/courses/learn-phaser/BOB/Bob+front.png');
-    this.load.image('bob-back', 'https://codecademy-content.s3.amazonaws.com/courses/learn-phaser/BOB/Bob+back.png');
-    this.load.image('bob-side', 'https://codecademy-content.s3.amazonaws.com/courses/learn-phaser/BOB/Bob+side.png');
-    this.load.image('money', 'https://codecademy-content.s3.amazonaws.com/courses/learn-phaser/BOB/Money.png');
-    this.load.image('paper', 'https://codecademy-content.s3.amazonaws.com/courses/learn-phaser/BOB/Paperwork.png');
+    this.load.image('bob-front', 'Bob+front.png');
+    this.load.image('bob-back', 'Bob+back.png');
+    this.load.image('bob-side', 'Bob+side.png');
+    this.load.image('money', 'Money.png');
+    this.load.image('paper', 'Paperwork.png');
   }
 
   create() {

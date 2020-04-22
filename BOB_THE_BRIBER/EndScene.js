@@ -4,7 +4,7 @@ class EndScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image('end', 'https://codecademy-content.s3.amazonaws.com/courses/learn-phaser/BOB/Game+over.png');
+    this.load.image('end', 'Game+over.png');
   }
 
   create() {

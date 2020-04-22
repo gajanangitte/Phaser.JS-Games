@@ -4,7 +4,7 @@ class StartScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image('start', 'https://codecademy-content.s3.amazonaws.com/courses/learn-phaser/BOB/Start+screen.png');
+    this.load.image('start', 'Start+screen.png');
   }
 
   create() {
